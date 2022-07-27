@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 100% 90%;
+}
+
+/* navbar desighn  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 4.5rem;
+}
+
+nav img {
+    height: 99px;
+    width: 93px;
+}
+
+.nav-items {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-item {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    transition: all .2s ease;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: #6d6afe;
+}
+
+.signin-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #6d6afe, #ff8adc);
+    cursor: pointer;
+    border: 0px solid;
+    color: white;
+}
+
+/* intro section  */
+.intro-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-section .left-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 110px;
+}
+
+.intro-section .left-section h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    color: #3f4894;
+}
+
+.intro-section .left-section h4 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 11rem;
+    color: black;
+}
+
+.intro-section .left-section button {
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #6d6afe, #ff8adc);
+    cursor: pointer;
+    border: 0px solid;
+    color: white;
+    margin-right: 20rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* image section  */
+.imgs-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-img {
+    margin-right: 190px;
+    height: 75vh;
+    width: 439px;
+}
+
+.vector-dot {
+    position: relative;
+    bottom: -25rem;
+    right: 5rem;
+    height: 20px;
+    width: -5px;
+
+}
+
+.vector-img {
+    position: absolute;
+    bottom: 1rem;
+    left: 31rem;
+    height: 5rem;
+    width: 5rem;
+}
