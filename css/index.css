@@ -60,7 +60,7 @@ nav img {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 20px 110px;
+    margin: 82px 257px 20px 80px;
 }
 
 .intro-section .left-section h1 {
@@ -96,15 +96,15 @@ nav img {
 }
 
 .intro-img {
-    margin-right: 190px;
-    height: 75vh;
-    width: 439px;
+    margin-right: 368px;
+    height: 80vh;
+    width: 468px;
 }
 
 .vector-dot {
     position: relative;
-    bottom: -25rem;
-    right: 5rem;
+    bottom: -32rem;
+    right: 2rem;
     height: 20px;
     width: -5px;
 
@@ -112,8 +112,8 @@ nav img {
 
 .vector-img {
     position: absolute;
-    bottom: 1rem;
-    left: 31rem;
+    bottom: 5rem;
+    left: 49rem;
     height: 5rem;
     width: 5rem;
 }
