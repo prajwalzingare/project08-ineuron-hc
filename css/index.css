@@ -56,37 +56,45 @@ nav img {
     flex-direction: row;
 }
 
-.intro-section .left-section {
+
+/* intro left section  */
+
+.intro-section {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    margin: 82px 257px 20px 80px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.intro-section .left-section h1 {
-    font-size: 50px;
-    margin-bottom: 2rem;
-    color: #3f4894;
+
+
+.left-section h1 {
+    font-size: 3rem;
+    color: #3e4794;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
-.intro-section .left-section h4 {
+.left-section h4 {
+    color: #758283;
+    font-size: .7rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    line-height: 1.8;
+}
+
+
+
+.learn-more-btn {
+    border-radius: 2rem;
     font-size: 1rem;
-    margin-bottom: 2rem;
-    margin-right: 11rem;
-    color: black;
+    background: linear-gradient(to right, #965cf2, #ff8adc);
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    width: 12rem;
 }
 
-.intro-section .left-section button {
-    padding: 5px 10px;
-    border-radius: 30px;
-    background-image: linear-gradient(to right, #6d6afe, #ff8adc);
-    cursor: pointer;
-    border: 0px solid;
-    color: white;
-    margin-right: 20rem;
-    font-size: 20px;
-    font-weight: bold;
-}
 
 
 /* image section  */
@@ -116,4 +124,68 @@ nav img {
     left: 49rem;
     height: 5rem;
     width: 5rem;
+}
+
+@media screen and (max-width:1100px) {
+    body {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position: 100% 90%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    nav {
+        overflow-x: auto;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .vector-img {
+        display: none;
+
+    }
+
+    .vector-dot {
+        display: none;
+    }
+
+    .intro-section {
+        margin: 1rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .left-section h1 {
+        margin-top: 3rem;
+    }
+
+    .left-section h4 {
+        font-size: .8rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .intro-img {
+        margin-top: 40px;
+        margin-right: -10px;
+        margin-left: 20px;
+        height: 40vh;
+        width: 400px;
+    }
+
+    .imgs-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
 }
